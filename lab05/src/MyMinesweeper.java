@@ -29,23 +29,6 @@ public class MyMinesweeper {
             }
         }
 
-
-
-
-
-//        Random r = new Random();
-//        int x,y;
-//        this.mineField = new boolean[this.rows][this.cols];
-//        int mines = this.numMines;
-//
-//        while(mines > 0){
-//            x = r.nextInt(this.rows);
-//            y = r.nextInt(this.cols);
-//            if(!this.mineField[x][y]){
-//                this.mineField[x][y] = true;
-//                mines--;
-//            }
-//        }
     }
 
     public int[][] generateClues() {
