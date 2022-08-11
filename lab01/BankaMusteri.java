@@ -20,13 +20,5 @@ public class BankaMusteri{
         System.out.println(musteri.isim +"-"+ musteri.hesapNo +"-"+ musteri.bakiye
                            +"\n"+ musteri2.isim +"-"+ musteri2.hesapNo +"-"+ musteri2.bakiye 
                            +"\n"+ Math.abs(musteri.bakiye - musteri2.bakiye));
-        
-        
-        
-
     }
-
-
-
-
 }
